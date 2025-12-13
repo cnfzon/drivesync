@@ -29,7 +29,18 @@ DriveSync 是一個 **即時賽車模擬儀表板系統**，透過 **UART** 從�
 - Python 3.9 以上
 - Windows（vGamepad 需求）
 
-安裝套件：
+## 使用方式（建議）
+
+### 🔹 方法一：雙擊執行（推薦）
+
+1. 確認已安裝 Python（並加入 PATH）
+2. 直接 **雙擊 `run_windows.bat`**
+3. 程式會自動安裝所需套件並啟動 DriveSync
+
+---
+
+### 🔹 方法二：手動安裝
 
 ```bash
-pip install pygame pyserial vgamepad
+pip install -r requirements.txt
+python dashboard_v9.py

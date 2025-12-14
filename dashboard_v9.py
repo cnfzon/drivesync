@@ -2,7 +2,7 @@ import sys, math, signal, time, struct
 import pygame
 import vgamepad as vg
 
-SERIAL_PORT = "COM5"
+SERIAL_PORT = "COM8"
 BAUD_RATE   = 115200
 
 try:
